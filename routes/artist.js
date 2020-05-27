@@ -6,7 +6,6 @@ var api = express.Router();
 var md_auth = require('../middlewares/authenticated');
 
 var multer = require('multer');
-var multer = require('multer');
  
 const storage = multer.diskStorage({
   destination(req, file, cb) {
